@@ -15,18 +15,24 @@ The following instructions can be used to run the neural network:
 - Predictions can be carried out using `python vgg16_lstm_hi_dim_predict.py` or using other `_predict.py` scripts.
 - The output predictions can be seen on the terminal or either be stored in a `.csv` by using `python vgg16_lstm_hi_dim_predict.py > output.csv`.
 
-In our project, we carried out prediction aggregation by splitting long videos into 5-second segments for optimal training and prediction. The output `.csv` file can be used to carry out prediction aggregation to obtain final prediction over the entire video.
+In our project, we carried out prediction aggregation by splitting long videos into 5-second segments for optimal training and prediction. The output `.csv` file can be used to carry out prediction aggregation to obtain final prediction over the entire video. The videos were generated using [OpenPose](https://github.com/CMU-Perceptual-Computing-Lab/openpose) with blank background over which skeletal keypoints were plotted.
 
 ### Citation
 If you use these tools in your research, please cite this project.
 
 ```
-@inproceedings{zhou2022mmrotate,
-  title   = {MMRotate: A Rotated Object Detection Benchmark using PyTorch},
-  author  = {Zhou, Yue and Yang, Xue and Zhang, Gefan and Wang, Jiabao and Liu, Yanyi and
-             Hou, Liping and Jiang, Xue and Liu, Xingzhao and Yan, Junchi and Lyu, Chengqi and
-             Zhang, Wenwei and Chen, Kai},
-  booktitle={Proceedings of the 30th ACM International Conference on Multimedia},
-  year={2022}
+@article{Kojovic2021,
+	title        = {Using 2D video-based pose estimation for automated prediction of autism spectrum disorders in young children},
+	author       = {Kojovic, Nada and Natraj, Shreyasvi and Mohanty, Sharada Prasanna and Maillart, Thomas and Schaer, Marie},
+	year         = 2021,
+	month        = {Jul},
+	day          = 23,
+	journal      = {Scientific Reports},
+	volume       = 11,
+	number       = 1,
+	pages        = 15069,
+	doi          = {10.1038/s41598-021-94378-z},
+	issn         = {2045-2322},
+	url          = {https://doi.org/10.1038/s41598-021-94378-z}
 }
 ```
