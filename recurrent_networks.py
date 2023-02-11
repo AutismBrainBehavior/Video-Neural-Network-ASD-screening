@@ -132,7 +132,8 @@ class vgg16BidirectionalLSTMVideoClassifier(object):
             temp = np.zeros(shape=(self.expected_frames, x.shape[1]))
             temp[0:frames, :] = x
             x = temp
-	predicted_c = self.model.predict(np.array([x]))[0]
+
+        predicted_c = self.model.predict(np.array([x]))[0]
         predicted_class = np.argmax(self.model.predict(np.array([x]))[0])
         predicted_label = self.labels_idx2word[predicted_class]
         print('predicted_prob is: '+ str(predicted_c))
@@ -306,7 +307,7 @@ class vgg16LSTMVideoClassifier(object):
             temp = np.zeros(shape=(self.expected_frames, x.shape[1]))
             temp[0:frames, :] = x
             x = temp
-	predicted_c = self.model.predict(np.array([x]))[0]
+        predicted_c = self.model.predict(np.array([x]))[0]
         predicted_class = np.argmax(self.model.predict(np.array([x]))[0])
         predicted_label = self.labels_idx2word[predicted_class]
         print('predicted prob is: '+ str(predicted_c))
