@@ -17,9 +17,14 @@ The following instructions can be used to run the neural network:
 
 In our project, we carried out prediction aggregation by splitting long videos into 5-second segments for optimal training and prediction. The output `.csv` file can be used to carry out prediction aggregation to obtain final prediction over the entire video. The videos were generated using [OpenPose](https://github.com/CMU-Perceptual-Computing-Lab/openpose) with blank background over which skeletal keypoints were plotted. The neural network was tested on University of Geneva's high-performance computing cluster, Baobab. The slurm scripts for the same are `run_nn.sh` for training and `run_predict.sh` for testing.
 
-### Citation
-If you use these tools in your research, please cite this project.
+## Visuals
+An illustration of OpenPose Normalized videos videos after carrying out pre-processing can be observed as follows:
+![alt text](https://github.com/nshreyasvi/Video-Neural-Network-ASD-screening/blob/main/reports/autism_data/vgg16-lstm-hi-dim-history.png)
 
+The training log for the neural network can be observed as follows:
+![alt text](https://github.com/nshreyasvi/Video-Neural-Network-ASD-screening/blob/main/reports/autism_data/vgg16-lstm-hi-dim-history.png)
+
+### Citation
 ```
 @article{Kojovic2021,
 	title        = {Using 2D video-based pose estimation for automated prediction of autism spectrum disorders in young children},
