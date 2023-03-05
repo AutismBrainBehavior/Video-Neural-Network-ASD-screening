@@ -4,12 +4,14 @@ This repository consists of the code used for carrying out classification of Aut
 
 An illustration of OpenPose Normalized videos videos after carrying out pre-processing can be observed as follows:
 
-![alt text](https://github.com/nshreyasvi/Video-Neural-Network-ASD-screening/blob/main/illustrations/openpose.jpg)
+<p align="center">
+<img src=https://github.com/nshreyasvi/Video-Neural-Network-ASD-screening/blob/main/illustrations/openpose.jpg>
+</p>
 
 ### Usage with Anaconda3
 The following instructions can be used to run the neural network using [Anaconda](https://www.anaconda.com/):
 - Create a new anaconda environment using `conda create -n env python=3.6 -y`
-- Install conda dependencies using `conda install numpy pandas scikit-learn scipy matplotlib tensorflow-gpu==1.15.0 keras opencv -y`
+- Install conda dependencies using `conda install ffmpeg numpy pandas scikit-learn scipy matplotlib tensorflow-gpu==1.15.0 keras opencv -y`
 - Install pip dependencies using `pip install opencv-contrib-python==4.1.2.30 imutils`
 - The code will generate classes based on the folders present inside `very_large_data/autism_data` folder.
 - Add the video data in folders with their respective class names inside the `very_large_data/autism_data` folder.
@@ -24,7 +26,9 @@ In our first research studies, we carried out prediction aggregation by splittin
 
 An example of the training log for the neural network can be observed as follows:
 
-![alt text](https://github.com/nshreyasvi/Video-Neural-Network-ASD-screening/blob/main/reports/autism_data/vgg16-lstm-hi-dim-history.png)
+<p align="center">
+<img src=https://github.com/nshreyasvi/Video-Neural-Network-ASD-screening/blob/main/reports/autism_data/vgg16-lstm-hi-dim-history.png>
+</p>
 
 ### Citation
 ```
