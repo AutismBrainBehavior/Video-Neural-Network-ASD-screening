@@ -6,10 +6,6 @@ An illustration of OpenPose Normalized videos videos after carrying out pre-proc
 
 ![alt text](https://github.com/nshreyasvi/Video-Neural-Network-ASD-screening/blob/main/illustrations/openpose.jpg)
 
-The training log for the neural network can be observed as follows:
-
-![alt text](https://github.com/nshreyasvi/Video-Neural-Network-ASD-screening/blob/main/reports/autism_data/vgg16-lstm-hi-dim-history.png)
-
 ### Usage with Anaconda3
 The following instructions can be used to run the neural network using [Anaconda](https://www.anaconda.com/):
 - Create a new anaconda environment using `conda create -n env python=3.6 -y`
@@ -25,6 +21,10 @@ The following instructions can be used to run the neural network using [Anaconda
 - The output predictions can be seen on the terminal or either be stored in a `.csv` by using `python vgg16_lstm_hi_dim_predict.py > output.csv`.
 
 In our first research studies, we carried out prediction aggregation by splitting long videos into 5-second segments for optimal training and prediction. The output `.csv` file can be used to carry out prediction aggregation to obtain final prediction over the entire video. In our second study (video-audio neural network ensemble), we also implemented a prediction aggregation condition where we only used clips which were predicted with more than 90% confidence for aggregated final prediction over the entire video. In that approach, we used the same output `.csv` file for tinkering around. 
+
+The training log for the neural network can be observed as follows:
+
+![alt text](https://github.com/nshreyasvi/Video-Neural-Network-ASD-screening/blob/main/reports/autism_data/vgg16-lstm-hi-dim-history.png)
 
 ### Citation
 ```
