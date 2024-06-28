@@ -1,4 +1,5 @@
 [![CC BY-NC-ND 4.0][cc-by-nc-nd-shield]][cc-by-nc-nd]
+
 [![CC BY-NC-ND 4.0][cc-by-nc-nd-image]][cc-by-nc-nd]
 
 [cc-by-nc-nd]: http://creativecommons.org/licenses/by-nc-nd/4.0/
