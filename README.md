@@ -6,8 +6,6 @@
 [cc-by-nc-nd-image]: https://licensebuttons.net/l/by-nc-nd/4.0/88x31.png
 [cc-by-nc-nd-shield]: https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey.svg
 
-This work is licensed under a [Creative Commons Attribution-NonCommercial-NoDerivs 4.0 International License][cc-by-nc-nd].
-
 ## ADOS OpenPose Video Neural Network
 
 This repository consists of the code used for carrying out classification of Autism Spectrum Disorder (ASD) using [OpenPose](https://github.com/CMU-Perceptual-Computing-Lab/openpose) normalised ADOS clinical examination video recordings ([Paper](https://www.nature.com/articles/s41598-021-94378-z)). The neural network's code was inspired from [VideoClassifier-CNNLSTM](https://github.com/jibinmathew69/VideoClassifier-CNNLSTM) and modified for training and prediction over our ADOS clinical examination recordings dataset. The videos were generated using [OpenPose](https://github.com/CMU-Perceptual-Computing-Lab/openpose) with blank background over which skeletal keypoints were plotted. The neural network was tested on University of Geneva's high-performance computing cluster, Baobab. The slurm scripts for the same are `run_nn.sh` for training and `run_predict.sh` for testing. The neural network was originally used for classification of [UCF-101](https://www.crcv.ucf.edu/data/UCF101.php) video dataset.
