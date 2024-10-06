@@ -38,6 +38,22 @@ An example of the training log for the neural network can be observed as follows
 
 ### Citation
 ```
+@article{10.1371/journal.pone.0308388,
+    doi = {10.1371/journal.pone.0308388},
+    author = {Natraj, Shreyasvi AND Kojovic, Nada AND Maillart, Thomas AND Schaer, Marie},
+    journal = {PLOS ONE},
+    publisher = {Public Library of Science},
+    title = {Video-audio neural network ensemble for comprehensive screening of autism spectrum disorder in young children},
+    year = {2024},
+    month = {10},
+    volume = {19},
+    url = {https://doi.org/10.1371/journal.pone.0308388},
+    pages = {1-20},
+    abstract = {A timely diagnosis of autism is paramount to allow early therapeutic intervention in preschoolers. Deep Learning tools have been increasingly used to identify specific autistic symptoms. But they also offer opportunities for broad automated detection of autism at an early age. Here, we leverage a multi-modal approach by combining two neural networks trained on video and audio features of semi-standardized social interactions in a sample of 160 children aged 1 to 5 years old. Our ensemble model performs with an accuracy of 82.5% (F1 score: 0.816, Precision: 0.775, Recall: 0.861) for screening Autism Spectrum Disorders (ASD). Additional combinations of our model were developed to achieve higher specificity (92.5%, i.e., few false negatives) or sensitivity (90%, i.e. few false positives). Finally, we found a relationship between the neural network modalities and specific audio versus video ASD characteristics, bringing evidence that our neural network implementation was effective in taking into account different features that are currently standardized under the gold standard ASD assessment.},
+    number = {10},
+}
+```
+```
 @article{Kojovic2021,
 	title        = {Using 2D video-based pose estimation for automated prediction of autism spectrum disorders in young children},
 	author       = {Kojovic, Nada and Natraj, Shreyasvi and Mohanty, Sharada Prasanna and Maillart, Thomas and Schaer, Marie},
