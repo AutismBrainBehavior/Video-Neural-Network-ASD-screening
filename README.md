@@ -38,7 +38,7 @@ An example of the training log for the neural network can be observed as follows
 
 ### Citation
 ```
-@article{10.1371/journal.pone.0308388,
+@article{Natraj2024,
     doi = {10.1371/journal.pone.0308388},
     author = {Natraj, Shreyasvi AND Kojovic, Nada AND Maillart, Thomas AND Schaer, Marie},
     journal = {PLOS ONE},
